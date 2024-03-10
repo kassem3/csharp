@@ -1,0 +1,76 @@
+/*
+System.Console.WriteLine("Enter a positive integer:");
+
+decimal input = decimal.Parse(System.Console.ReadLine());
+
+int current = 1;
+
+while (current <= input)
+{
+    System.Console.WriteLine("Hello World!");
+    ++current;
+}
+*/
+
+/*
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("Value of i: {0}", i);
+}
+*/
+
+/*
+for (int i=0; i<7; i++)
+{
+    Console.WriteLine("Enter the day's name:");
+    string input = Console.ReadLine();
+    Console.WriteLine("The day is "+input);
+}
+*/
+
+/*
+int[] numbers = new int[] {3,14,15,92,6};
+foreach(int number in numbers)
+{
+    Console.WriteLine($"{number}");
+}
+Console.ReadKey();
+*/
+
+/*
+Console.WriteLine("Enter the 1st number: ");
+int num1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter the 2nd number: ");
+int num2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter the character of the operation:\n");
+Console.WriteLine("a addition\ns subtraction\nm multiplication\nd division");
+
+int choice;
+choice = char.Parse(Console.ReadLine());
+
+switch (choice)
+{
+    case 'a':
+        Console.WriteLine(num1 + num2);
+        break;
+    case 's':
+        Console.WriteLine(num1 - num2);
+        break;
+    case 'm':
+        Console.WriteLine(num1 * num2);
+        break;
+    case 'd':
+        if (num2 == 0)
+        {
+            Console.WriteLine("Division by zero is not allowed.");
+            break;
+        }
+        Console.WriteLine(num1 / num2);
+        break;
+    default:
+        Console.WriteLine("Invalid Choice");
+        break;
+}
+*/
